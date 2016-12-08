@@ -14,6 +14,7 @@ class gameViewViewController: UIViewController
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var picView: UIView!
     //labels
+    
     @IBOutlet weak var labOne: PicLabel!
     @IBOutlet weak var labTwo: PicLabel!
     @IBOutlet weak var labThree: PicLabel!
