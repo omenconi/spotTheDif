@@ -10,8 +10,6 @@ import UIKit
 
 class PicLabel: UILabel
 {
-
     var canTap = true 
     var count = 0
-
 }
