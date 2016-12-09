@@ -14,7 +14,6 @@ class gameViewViewController: UIViewController
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var picView: UIView!
     //labels
-    
     @IBOutlet weak var labOne: PicLabel!
     @IBOutlet weak var labTwo: PicLabel!
     @IBOutlet weak var labThree: PicLabel!
@@ -49,7 +48,6 @@ class gameViewViewController: UIViewController
         {
             if label.frame.contains(sender.location(in: picView))
             {
-                print("found a label")
                 if label.canTap == true
                 {
                     label.text = "⭕️"
@@ -57,6 +55,7 @@ class gameViewViewController: UIViewController
                     label.canTap = false
                     myPic.count += 1
                 }
+                
                 
             }
         }
