@@ -35,6 +35,7 @@ class gameViewViewController: UIViewController
     override func viewDidLoad()
     {
         super.viewDidLoad()
+        // all labels for the differences are put into any array 
         labelsArray = [labOne, labTwo, labThree, labFour, labFive, labSix, labSev, labEight, labNine, labTen, labEleven]
 //puts name entered on first view controller into a label that shows on the bottom of the second view controller
         nameLabel.text = playerName + " is spotting the differences!"
